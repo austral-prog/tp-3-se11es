@@ -1,5 +1,12 @@
-def slice_advanced():
-    # Código a implementar utilizando input.
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+def check_vowels():
+    nombre1=input()
+    a='a' in nombre1.lower()
+    e='e' in nombre1.lower()
+    i='i' in nombre1.lower()
+    o='o' in nombre1.lower()
+    u='u' in nombre1.lower()
+    print(f'Contiene a: {a}')
+    print(f'Contiene e: {e}')
+    print(f'Contiene i: {i}')
+    print(f'Contiene o: {o}')
+    print(f'Contiene u: {u}')
