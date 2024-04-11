@@ -1,12 +1,3 @@
-def check_vowels():
-    nombre1=input()
-    a='a' in nombre1.lower()
-    e='e' in nombre1.lower()
-    i='i' in nombre1.lower()
-    o='o' in nombre1.lower()
-    u='u' in nombre1.lower()
-    print(f'Contiene a: {a}')
-    print(f'Contiene e: {e}')
-    print(f'Contiene i: {i}')
-    print(f'Contiene o: {o}')
-    print(f'Contiene u: {u}')
+def slice_advanced():
+   hello=input()
+   print(hello[4::2])
